@@ -2,3 +2,23 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+th {
+  background-color: #b4b5b8;
+}
+
+.even {
+  background-color: lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(216, 219, 224);
+}
+
+td {
+  padding: 9px;
+}
+
+table {
+  border-spacing: 0px 0px;
+}
